@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" default-lazy-init="true"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--<bean id="user" class="com.tjetc.domain.User"  init-method="userInit" destroy-method="userDestory">
+        <property name="username" value="zhangsan"></property>
+        <property name="password" value="123456"></property>
+    </bean>
+    <bean class="com.tjetc.processor.MyBeanPostProcessor"></bean>-->
+    <bean id="student" class="com.tjetc.domain.Student" ></bean>
+</beans>
